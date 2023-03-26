@@ -8,23 +8,25 @@ body {
     display: flex;
     width: 100vw;
     height: 20vh;
+    background-color: #800000;
 }
 
-.drop-down-menu-container {
+.drop-down-container {
     display: flex;
-    width: 40vw;
-    height: 20vh;
     align-items: center;
+    justify-content: center;
 }
 
-.drop-down-svg {
-    margin-left: 2rem;
+.drop-down-menu {
+    margin-right: 1rem;
 }
+
 
 .logo-container {
     display: flex;
-    width: 60vw;
+    width: 100vw;
     height: 20vh;
+    justify-content: center;
 }
 
 .store-title {
