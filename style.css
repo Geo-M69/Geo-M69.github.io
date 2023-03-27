@@ -33,13 +33,20 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
 }
 
 .parallax-container {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
     z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
 }
 
 .parallax-container img {
@@ -52,6 +59,7 @@ body {
     height: 80vh;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40vh;
 }
 
 .introduction-first-half {
