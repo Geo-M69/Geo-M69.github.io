@@ -74,7 +74,8 @@ body {
     align-items: end;
     color: white;
     font-family: "Oswald", sans-serif;
-    font-size: 3vw;
+    font-size: 2vw;
+    letter-spacing: .4rem;
 }
 
 .store-name {
