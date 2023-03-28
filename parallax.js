@@ -1,5 +1,6 @@
-window.addEventListener('scroll', function() {
-  var scrolled = window.pageYOffset;
-  var parallaxImage = document.querySelector('.parallax-container');
-  parallaxImage.style.transform = 'translateY(' + (scrolled * 0.2) + 'px)'; /* Adjust the position of the image based on the scroll position */
+const bgImage = document.querySelector('.bg-image');
+
+window.addEventListener('scroll', () => {
+  const offset = window.pageYOffset;
+  bgImage.style.transform = `translate3d(0, -${offset * 0.3}px, 0)`; /* adjust the scroll speed by changing the multiplier */
 });
