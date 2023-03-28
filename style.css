@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@400;700&display=swap');
+
+
+
+:root {
+    --aboutBackgroundColor: #800000;
+}
 
 body {
     margin: 0;
@@ -74,6 +80,7 @@ body {
     align-items: end;
     color: white;
     font-family: "Oswald", sans-serif;
+    font-weight: bold;
     font-size: 2vw;
     letter-spacing: .4rem;
 }
@@ -84,8 +91,9 @@ body {
     height: 50%;
     color: white;
     font-family: "Oswald", sans-serif;
-    font-size: 8vw;
+    font-size: 9vw;
     flex-direction: row;
+    font-weight: "regular";
 }
 
 .store-title-second-half {
@@ -98,5 +106,100 @@ body {
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-color: #800000;
+    background-color: var(--aboutBackgroundColor);
+}
+
+.about-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.about-first-half {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    color: #161616;
+    font-family: "Oswald", sans-serif;
+    font-size: 5vw;
+    letter-spacing: .7rem;
+}
+
+.about-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 70%;
+    color: white;
+    font-size: 1.7vw;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+.about-second-half {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-image: url(./Images/about-picture.jpg);
+    background-size: cover;
+}
+
+.footer {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.footer-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.footer-first-half {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.first-footer-section {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: #700000;
+}
+
+.second-footer-section {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: #600000;
+}
+
+.footer-second-half {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.third-footer-section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #500000;
 }
