@@ -159,47 +159,81 @@ body {
 .footer {
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     background-color: transparent;
 }
 
 .footer-container {
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 .footer-first-half {
     display: flex;
     width: 50%;
     height: 100%;
-    flex-direction: column;
-}
-
-.first-footer-section {
-    display: flex;
-    width: 100%;
-    height: 50%;
     background-color: #700000;
-}
-
-.second-footer-section {
-    display: flex;
-    width: 100%;
-    height: 50%;
-    background-color: #600000;
+    flex-direction: column;
 }
 
 .footer-second-half {
     display: flex;
     width: 50%;
     height: 100%;
-    flex-direction: column;
+    background-color: #600000;
 }
 
-.third-footer-section {
+.contact-title-container {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 4vw;
+    letter-spacing: .4rem;
+    justify-content: center;
+}
+
+.contact-info-container {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    color: white;
+    font-family: "Lato", sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+
+.visit-us-container {
     display: flex;
     width: 100%;
     height: 100%;
-    background-color: #500000;
+    flex-direction: column;
+}
+
+.visit-us {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 4vw;
+    letter-spacing: .4rem;
+    justify-content: center;
+}
+
+.open-hours {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    color: white;
+    font-family: "Lato", sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+
 }
